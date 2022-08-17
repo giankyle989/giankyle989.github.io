@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+}
+
+:root{
+    --primary-color: #03254E;
+    --secondary-color: #70ABAF;
+}
+body{
+    background-color: #aabad4;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23020102' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 10px;
+}
+
+.fa-quote-left{
+    font-size: 64px;
+    color: var(--secondary-color);
+
+}
+.quote{
+    font-style: italic;
+    text-align: center;
+    color: var(--primary-color);
+}
+.author{
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+hr{
+    margin: 10px 0;
+    width: 60%;
+    color: var(--primary-color);
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.twitter-share-button{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons button{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
